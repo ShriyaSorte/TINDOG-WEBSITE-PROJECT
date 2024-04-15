@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./logo.png">
+    <title>TINDOG WEBSITE</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            text-decoration: none;
+            display: flex;
+            padding: 10px;
+        }
+        a{
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .navlist a:hover{
+            color: rgb(241, 136, 17);
+        }
+        .navlist{
+            padding-top: 50px;
+            margin-left: 50px;
+        }
+        .searchicon{
+            padding-left: 180px;
+            margin-top: 50px;
+        }
+        h1{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 80px;
+            font-weight: lighter;
+            margin-left: 80px;
+            margin-top: 20px;
+            color: #00484f;
+        }
+        h2{
+            font-size: 25px;
+            color: #0c71c3;
+            margin-left: 90px;
+            margin-top: 5px;
+        }
+        .bg_img{
+            background-image: url(./dog.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 700px;
+            background-size: cover;
+        }
+        .blog{
+            padding: 25px;
+            width: 130px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #ffb100;
+            font-weight: bold;
+            margin-left: 90px;
+            margin-top: 60px;
+            border: none;
+        }
+        .card{
+            width: 30%;
+            padding-left: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+            text-align: justify;
+        }
+        .container1{
+            width: 80%;
+            text-align: justify;
+            padding-left: 20px;
+        }
+        p{
+            line-height: 2;
+        }
+        h5{
+            font-weight: lighter;
+        }
+        .entry a{
+            color: blue;
+            /* margin-top: 50px; */
+        }
+        .entry{
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .buttons{
+            margin-left: 90px;
+            margin-top: 50px;
+        }
+        .categories li{
+            color: #ffb100;
+        }
+        .categories{
+            margin-left: 450px;
+            text-decoration: none;
+            line-height: 2;
+            list-style: none;
+            display: inline-block;
+        }
+        .categories ul{
+            list-style-type: none;
+        }
+        .right{
+            margin-left: 500px;
+        }
+        .right ul{
+            float: right;
+        }
+
+        /* .buttons a:hover{
+            background-color: blue;
+        } */
+        /* .image{
+            background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%,#2c2b4c 80%);
+            height: 150px;
+            width: 100%;
+        } */
+    </style>
+</head>
+<body>
+    <div class="bg_img">
+        <nav class="navbar">
+            <img src="./logo.png" style="height: 100px; width: 100px; padding-left: 30px;">
+            <div class="navlist">
+                <a href="#">HOME</a>
+                <a href="#">BLOGS</a>
+                <a href="#">DOG BREEDS & PERSONALITY</a>
+                <a href="#">DOG TRAINING</a>
+                <a href="#">DOG LIFE</a>
+                <a href="#">CONTACT US</a>
+            </div>
+            <div class="searchicon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+        <h1>Tindog</h1>
+        <h2>#1 Dog Magazine</h2>
+        <button class="blog">BLOG</button>
+    </div><br><br><br>
+    <div class="card">
+        <div class="card1">
+            <img src="./img1.jpg" style="height: 250px; width: 350px;">
+            <div class="container1">
+                <h4>Limited Ingredient Diets for Pets</h4><br>
+                <h5>Jan 31, 2024 | Dog Care, Dog Life</h5><br>
+                <p>It can be expensive to be a pet owner. While buying a pet from a responsible breeder has a high initial cost, the biggest ongoing cost for most dog and cat owners is feeding their pet and having a comprehensive guide for them to follow. Despite this, as pet owners we want the best for our pets...
+                </p>
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+            </div>
+        </div>
+        <div class="card2">
+            <img src="./img2.jpg" style="height: 250px; width: 350px;">
+            <div class="container1">
+                <h4>Relief Vets: Enhancing the Quality of Life for Dogs through Expert Care</h4><br>
+                <h5>Jan 11, 2024 | Dog Care, Dog Life</h5><br>
+                <p>Relief veterinarians are an essential part of the animal healthcare industry. At Relief Vets, we offer veterinary relief services to ensure that pet owners can access expert care for their furry companions. Our team of dedicated relief veterinarians provides top-notch care to enhance the quality...</p>
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+            </div>
+        </div>
+        <div class="card3">
+            <img src="./img3.jpg" style="height: 250px; width: 350px;">
+            <h4>Paws and Preparedness: A Comprehensive Guide on Handling Pet Emergenciese</h4><br>
+            <h5>Jan 9, 2024 | Dog Life, Dog Care</h5><br>
+            <p>In the vibrant tapestry of life, our four-legged companions add immeasurable joy and unconditional love to our daily existence. As devoted pet parents, ensuring the safety and well-being of our furry friends is not just a responsibility but a heartfelt commitment. Yet, unforeseen emergencies can...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card4">
+            <img src="./img4.jpg" style="height: 250px; width: 350px;">
+            <h4>Paws in Transition: Navigating the Journey of Moving with Your Furry Companion</h4><br>
+            <h5>Jan 9, 2024 | Dog Life</h5><br>
+            <p>Moving is a transformative journey, marked by anticipation, excitement, and the promise of new beginnings. However, for those who share their lives with four-legged friends, the process of relocating takes on a unique dimension. The transition from one home to another can be a source of anxiety...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card5">
+            <img src="./img5.jpg" style="height: 250px; width: 350px;">
+            <h4>Exploring the World of Bull Terrier Mix: A Comprehensive Guide to Unique Crossbreeds</h4><br>
+            <h5>Jan 6, 2024 | Dog Breeds & Personality</h5><br>
+            <p>A cross between the Old English Terrier and the Bulldog, you may already recognize this breed thanks to the popular Target ads that feature the company’s adorable mascot, Bullseye. A breed that is loved by many, in recent years, it’s become popular to breed this dog with other breeds such as the...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card6">
+            <img src="./img6.jpg" style="height: 250px; width: 350px;">
+            <h4>Exploring the Weimaraner Pitbull Mix: A Comprehensive Guide to This Unique Crossbreed</h4><br>
+            <h5>Jan 1, 2024 | Dog Breeds & Personality</h5><br>
+            <p>The Pitbull Weimaraner mix, a unique blend of the American Pit Bull Terrier and Weimaraner epitomizes strength, agility, and a profound emotional depth. This medium to large breed is not just an excellent companion for those with active lifestyles but also a perfect addition to family...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card7">
+            <img src="./img7.jpg" style="height: 250px; width: 350px;">
+            <h4>How to Write a Research Paper about Your Dog</h4><br>
+            <h5>Dec 25, 2023 | Dog Life</h5><br>
+            <p>Contrary to popular belief, you can write a research paper on any topic. It is always better to write academic papers on topics that you enjoy. Suppose you write about a topic that interests you. In that case, you put much of your personality into the writing, filling the paper with interesting...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card8">
+            <img src="./img8.jpg" style="height: 250px; width: 350px;">
+            <h4>What equipment do you need for sighthounds?</h4><br>
+            <h5>Nov 29, 2023 | Uncategorized</h5><br>
+            <p>If you own or have come across a sighthound you will have noticed that they have quite a unique body shape, temperament, and features, all of which naturally translates to them having slightly different needs than a more traditional breed of dog.     What is a sighthound? First, just to...</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+        <div class="card9">
+            <img src="./img9.jpg" style="height: 250px; width: 350px;">
+            <h4>The Social Canine: Unveiling the Most Sociable and Dog-Friendly Breeds</h4><br>
+            <h5>Nov 27, 2023 | Dog Breeds & Personality, Dog Life</h5><br>
+            <p>Welcoming a canine companion into your life is a joyous occasion, and for many, the social aspect of a dog is a crucial factor. In this exploration of the most sociable and dog-friendly breeds, we’ll delve into the characteristics that make certain breeds stand out as social butterflies....</p>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">read more</p>
+        </div>
+    </div>
+
+    <div class="entry">
+        <a href="#">&lt;&lt;Older Entries</a>
+    </div>
+
+    <!-- <div class="image">
+        <img src="./dog01.jpg" style="height: 150px; width: 100%;">
+    </div> -->
+
+    <div class="buttons">
+        <a href="#"><button style="background-color: #ffb100; height: 40px; width: 40px;"><i class="fa-brands fa-facebook-f"></i></button></a>
+        <a href="#"><button style="background-color: #ffb100; height: 40px; width: 40px;"><i class="fa-brands fa-twitter"></i></button></a>
+        <a href="#"><button style="background-color: #ffb100; height: 40px; width: 40px;"><i class="fa-brands fa-instagram"></i></button></a>
+        <a href="#"><button style="background-color: #ffb100; height: 40px; width: 40px;"><i class="fa-brands fa-youtube"></i></button></a>
+    </div>
+    
+    <div class="categories">
+        <h3>Categories</h3>
+        <ul>
+            <li>Ask the Vet<span style="color: black;"> (1)</span></li>
+            <li>Cat<span style="color: black;"> (7)</span></li>
+            <li>Dog Behaviour<span style="color: black;"> (44)</span></li>
+            <li>Dog Breeds & Personality<span style="color: black;"> (82)</span></li>
+            <li>Dog Care<span style="color: black;"> (213)</span></li>
+            <li>Dog Life<span style="color: black;"> (226)</span></li>
+            <li>Dog Training<span style="color: black;"> (41)</span></li>
+            <li>Nutrition and Health Care<span style="color: black;"> (20)</span></li>
+            <li>Puppies<span style="color: black;"> (5)</span></li>
+            <li>Social Impact<span style="color: black;"> (10)</span></li>
+            <li>Uncategorized<span style="color: black;"> (2)</span></li>
+        </ul>
+        
+        <div class="right">
+            <h3>Site Resources</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Disclaimers</li>
+                <li>Terms of Use</li>
+                <li>Privacy Policy</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
